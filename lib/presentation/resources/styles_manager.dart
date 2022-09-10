@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'font_manager.dart';
 
 TextStyle _getTextStyle(double fontSize, FontWeight fontWeight, Color color) {
@@ -23,7 +24,7 @@ TextStyle getMediumStyle(
   return _getTextStyle(fontSize, FontWeightManager.medium, color);
 }
 
-// light style
+// medium style
 
 TextStyle getLightStyle(
     {double fontSize = FontSize.s12, required Color color}) {
